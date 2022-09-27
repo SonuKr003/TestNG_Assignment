@@ -1,0 +1,16 @@
+<suite name="Suite" parallel = "tests" thread-count="5">
+
+  <test name="Test_runner-1" >
+   <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.test.TestNG.ProductAddinge2e"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test_runner-2" >
+   <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.test.TestNG.ProductAddinge2e"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
