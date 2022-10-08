@@ -38,6 +38,8 @@ public class JDBC_MySql {
 
 		conn.close();
 		System.out.println("closing dataBase connectivity................");
+		
+		System.out.println("master commit");
 
 	}
 }
