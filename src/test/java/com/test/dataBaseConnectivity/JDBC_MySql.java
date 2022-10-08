@@ -37,7 +37,6 @@ public class JDBC_MySql {
 		// step 5: =-- closed the connections.................
 
 		conn.close();
-		System.out.println("closing dataBase connectivity................");
 
 	}
 }
