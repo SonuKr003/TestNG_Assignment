@@ -40,6 +40,7 @@ public class JDBC_MySql {
 		System.out.println("closing dataBase connectivity................");
 		
 		System.out.println("master commit");
+		System.out.println("feature branch2");
 
 	}
 }
